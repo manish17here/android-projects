@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#71CDC9"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="32dp"
+        android:id="@+id/logo"
+        />
+    <TextView
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/logo"
+        android:id="@+id/textsparks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sparks Foundation"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/textsparks"
+        android:text="Donate Now"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:id="@+id/donate_now"
+        />
+
+
+</RelativeLayout>
